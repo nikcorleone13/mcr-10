@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="z-[9999] sticky  h-screen w-[200px] bg-gray-950 ">
       <div className="pt-[100px] h-[50%] flex flex-col justify-evenly items-start ">
-        <NavLink className="navLink w-[100%] pl-4" style={getActiveStyle} to="/dashboard">
+        <NavLink className="navLink w-[100%] pl-4" style={getActiveStyle} to="/">
           Dashboard
         </NavLink>
         <NavLink className="navLink w-[100%] pl-4" style={getActiveStyle} to="/departments">
